@@ -1,0 +1,10 @@
+-- ZYHRX AUTO EXECUTE
+-- Execute sekali → langsung jalan
+-- Tinggal ganti link loadstring
+
+if getgenv().ZYHRX_EXECUTED then return end
+getgenv().ZYHRX_EXECUTED = true
+
+-- === AUTO RUN ===
+pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/zhyrxHub/ZhyrxHub99x/main/Haikal.lua"))()
